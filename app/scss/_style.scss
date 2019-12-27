@@ -1,10 +1,17 @@
 
-body {
-    background: red;
+.header__slider {
+    &-item {
+        height: 100vh;
+        background-image: url(../img/header-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
 }
-header {
-    height: 100vh;
-    background-image: url(../img/header-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.slider-item__info {
+    position: absolute;
+    right: 80px;
+    bottom: 116px;
 }
